@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 const Homepage = () => {
     return (
         <div>
-            <h1>Go On, Order That Pizza. You Deserve It</h1>
+            <h1>Go on, order that pizza. You know you want to.</h1>
             {/* <img src = {Pizza} alt = "homepage img" className = "PizzaImg" /> */}
             <Link to = "/order" className = "OrderButton">Place Your Order</Link>
         </div>

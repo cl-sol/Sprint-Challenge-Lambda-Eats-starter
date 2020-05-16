@@ -84,6 +84,7 @@ const OrderForm = () => {
         axios
             .post("https://reqres.in/api/users", formState)
             .then(res => {
+                console.log(res);
                 setPost(res.data)
                 setFormState({
                     name: "",
